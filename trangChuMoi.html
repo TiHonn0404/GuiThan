@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HerogameShop</title>
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/css.css">
+    <link rel="shortcut icon" href="public/img/logoherogame.ico" type="image/x-icon">
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+    <div class="container-fluid">
+        <div ng-include="'giaoDien/headertop.html'"></div>
+    </div>
+    <div class="container-fluid dauTrang">
+        <div ng-include="'giaoDien/header.html'"></div>
+
+        <div ng-include="'giaoDien/menu.html'"></div>
+    </div>
+
+    <div ng-view></div>
+
+    <div class="container-fluid">
+        <div ng-include="'giaoDien/footer.html'"></div>
+    </div>
+</body>
+<script src="angular.min.js"></script>
+<script src="angular-route.min.js"></script>
+<script src="public/js/bootstrap.bundle.min.js"></script>
+<script src="JS/app.js"></script>
+<script src="https://kit.fontawesome.com/21751723ff.js" crossorigin="anonymous"></script>
+
+</html>

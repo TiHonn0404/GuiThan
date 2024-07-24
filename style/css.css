@@ -1,0 +1,604 @@
+header {
+    position: relative;
+    height: 100px;
+    background-color: #F1F1F1;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    position: absolute;
+}
+/* .dauTrang{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+} */
+.custom-input {
+    font-size: 15px;
+}
+.linkCart{
+    text-decoration: none;
+}
+
+.gioHang {
+    
+    color: black;
+    font-size: 20px;
+    font-family: "Open Sans", Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.shopping-cart {
+    margin: 80px 0 0 80px;
+}
+
+.nav {
+    background-color: #E7E7E7;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 150px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.nav .menu-item-a a:hover {
+    background-color: #17649A;
+    color: white;
+}
+
+.nav .menu-item-b a:hover {
+    background-color: #CE181E;
+    color: white;
+}
+
+.nav .menu-item-c a:hover {
+    background-color: #0196D1;
+    color: white;
+}
+
+.nav .menu-item-d a:hover {
+    background-color: #FF7D00;
+    color: white;
+}
+
+.nav .menu-item-e a:hover {
+    background-color: #FF7D00;
+    color: white;
+}
+
+.nav .menu-item-f a:hover {
+    background-color: #CE181E;
+    color: white;
+}
+
+.nav .menu-item-g a:hover {
+    background-color: #CE181E;
+    color: white;
+}
+
+.nav .menu-item-h a:hover {
+    background-color: #088400;
+    color: white;
+}
+
+article {
+    min-height: 400px;
+}
+
+.list-group ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.list-group li a {
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+/* .icon .state-1{
+    display: block;
+}
+.icon .state-2{
+    display: none;
+}
+
+.list-group .item-0 a:hover .icon img.state-1{
+    display: none;
+}
+
+.list-group .item-0 a:hover .icon img.state-2{
+    display: block;
+} */
+
+/* .category-menu>ul>li>a .icon {
+    margin-top: .4rem;
+    margin-right: .5rem;
+    display: inline-block;
+    vertical-align: top
+}
+
+.category-menu>ul>li>a .icon img {
+    width: 1.8rem;
+    height: 1.8rem
+}
+
+.category-menu>ul>li>a .icon img.state-1 {
+    display: block
+}
+
+.category-menu>ul>li>a .icon img.state-2 {
+    display: none
+} */
+
+
+.list-group .item-0 a {
+    background-color: #F1F1F1;
+    background-image: url('../public/img/mario.png');
+
+    background-size: 30px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 50px;
+}
+
+.list-group .item-0 a:hover {
+    background-image: url(../public/img/mariohover.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: #EE0000;
+    color: white;
+}
+
+.list-group .item-1 a {
+    background-color: #F1F1F1;
+    background-image: url('../public/img/logoplaystation.png');
+    /* Hình ảnh mặc định */
+    background-size: 30px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 50px;
+
+}
+
+.list-group .item-1 a:hover {
+    background-image: url(../public/img/playstation1.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: #3A5FCD;
+    color: white;
+}
+
+.list-group .item-2 a {
+    background-color: #F1F1F1;
+    background-image: url('../public/img/Xboxbg.jpg');
+    /* Hình ảnh mặc định */
+    background-size: 30px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 50px;
+
+}
+
+.list-group .item-2 a:hover {
+    background-image: url(../public/img/Xbox1.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: #B5CB24;
+    color: white;
+}
+
+.list-group .item-3 a {
+    background-color: #F1F1F1;
+    background-image: url('../public/img/gamebg.png');
+    /* Hình ảnh mặc định */
+    background-size: 30px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 50px;
+
+}
+
+.list-group .item-3 a:hover {
+    background-image: url(../public/img/game1.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: #FF6633;
+    color: white;
+}
+
+.list-group .item-4 a {
+    background-color: #F1F1F1;
+    background-image: url('../public/img/phukienNinbg.png');
+    /* Hình ảnh mặc định */
+    background-size: 30px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 50px;
+
+}
+
+.list-group .item-4 a:hover {
+    background-image: url(../public/img/phukienNinbg.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: #26BDDB;
+    color: white;
+}
+
+.list-group .item-5 a {
+    background-color: #F1F1F1;
+    background-image: url('../public/img/phukienPlaybg.png');
+    /* Hình ảnh mặc định */
+    background-size: 30px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 50px;
+
+}
+
+.list-group .item-5 a:hover {
+    background-image: url(../public/img/phukienPlay1.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: #FF69B4;
+    color: white;
+}
+
+.list-group .item-6 a {
+    background-color: #F1F1F1;
+    background-image: url('../public/img/ssdbg.png');
+    /* Hình ảnh mặc định */
+    background-size: 30px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 50px;
+
+}
+
+.list-group .item-6 a:hover {
+    background-image: url(../public/img/ssdbg.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: #17649A;
+    color: white;
+}
+
+.list-group .item-7 a {
+    background-color: #F1F1F1;
+    background-image: url('../public/img/pkmcenterbg.png');
+    /* Hình ảnh mặc định */
+    background-size: 30px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 50px;
+
+}
+
+.list-group .item-7 a:hover {
+    background-image: url(../public/img/pkmcenter1.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: #17649A;
+    color: white;
+}
+
+.list-group .item-8 a {
+    background-color: #F1F1F1;
+    background-image: url('../public/img/retrobg.png');
+    /* Hình ảnh mặc định */
+    background-size: 30px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 50px;
+
+}
+
+.list-group .item-8 a:hover {
+    background-image: url(../public/img/retrobg.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: #17649A;
+    color: white;
+}
+
+.banner {
+    background-image: url(../public/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+
+}
+
+.product a {
+    text-decoration: none;
+}
+.sliderProduct a{
+    text-decoration: none;
+}
+
+/* .list-product img {
+    height: 250px;
+} */
+.cards{
+    margin: 0 .5em;
+}
+.cards img{
+    height: 250px;
+}
+
+.list-product {
+    position: relative;
+    transition: all 0.3s ease;
+}
+.cards{
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.list-product:hover {
+    border-color: #26BDDB;
+    transform: translateY(-10px);
+}
+.cards:hover {
+    border-color: #26BDDB;
+    transform: translateY(-10px);
+}
+.cards .tenMay{
+    color: black;
+    font-weight: 700;
+}
+
+
+.tenMay {
+    color: black;
+    font-weight: 700;
+}
+
+.tenMay:hover {
+    color: #17649A;
+}
+
+.price {
+    font-weight: bold;
+    color: #DC2535;
+}
+
+.muaNgay {
+    /* Add your default button styles here */
+    display: inline-block;
+    padding: 10px;
+    color: #17649A;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.muaNgay:hover {
+    color: white;
+    background-color: #FF0000;
+    
+}
+.cards .muaNgay:hover {
+    color: white;
+    background-color: #FF0000;
+    
+}
+
+
+/* CSS trang chi tiết sản phẩm */
+
+.list-detail-product {
+    padding-left: 5px;
+    padding-top: 10px;
+
+}
+
+.list-detail-product .detail-product {
+    list-style: none;
+}
+
+.list-detail-product .detail-product label {
+    width: 80px;
+    height: 20px;
+}
+
+
+.list-detail-product .detail-product strong {
+    padding-left: 10px;
+}
+
+.list-detail-product .detail-product .tag {
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.themSoLuong .minus {
+    background-color: rgb(201, 201, 201);
+    width: 100px;
+    height: 60px;
+    border: none;
+    transition: all 0.25s ease;
+}
+
+.themSoLuong .minus:hover {
+    background-color: #17649A;
+    color: white;
+}
+
+.themSoLuong .plus {
+    background-color: rgb(201, 201, 201);
+    width: 100px;
+    height: 60px;
+    border: none;
+    transition: all 0.25s ease;
+}
+
+.themSoLuong .plus:hover {
+    background-color: #17649A;
+    color: white;
+}
+
+.themSoLuong .soLuong {
+    width: 100px;
+    height: 60px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #8d8d8d 1px;
+    border-top: solid #8d8d8d 1px;
+}
+
+.addCart {
+    border: none;
+    color: white;
+    width: 300px;
+    height: 60px;
+    background-color: #E03B49;
+}
+
+/* Trang giỏ hàng */
+.tenSanPham a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #17649A;
+    transition: all 0.2s;
+}
+
+tbody .tenSanPham a:hover {
+    color: #0196D1;
+    text-decoration: underline;
+}
+
+.btn-correct {
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #17649A;
+}
+
+.btn-wrong {
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #E03B49;
+}
+
+.btn-correct:hover {
+    background-color: #0196D1;
+}
+
+.btn-wrong:hover {
+    background-color: #C9302C;
+}
+
+.group {
+    border-right: 1px solid black;
+}
+.group-borderless{
+    border-right:none !important;
+}
+
+.sdtLienHe a {
+    color: black;
+    text-decoration: none;
+}
+.sdtLienHe a:hover{
+    text-decoration: underline;
+}
+.middle{
+    width: 30.3%;
+}
+.middle ul li{
+    list-style: none;
+}
+.middle ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.lienHe4 a{
+    text-decoration: none; color: #444480;
+}
+
+.lienHe4 a:hover{
+    text-decoration: underline;
+}
+.middle-right{
+    width: 50.3%;
+}
+.middle-right ul li{
+    list-style: none;
+}
+.cards-wrapper{
+    display: flex;
+}
+.back, .tienToi{
+    background-color: #6D6D6D;
+    width: 40px;
+    height: 40px;
+    margin-top: 250px;
+    border-radius: 50%;
+}
+.signUp .dangKy{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.signUp .dangNhap{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.signUp .dangKy:hover{
+    text-decoration: underline;
+}
+.signUp .dangNhap:hover{
+    text-decoration: underline;
+}
+.phukien ul li{
+    list-style: none;
+}
+.hinhLienQuan img{
+    width: 70px;
+    display: block;
+}
+.hinhLienQuan .nutHinh{
+    width: max-content!important;
+}
+.hinhLienQuan{
+    position: unset;
+}

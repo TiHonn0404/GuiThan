@@ -1,0 +1,160 @@
+[
+    {
+        "id": 1,
+        "img": "public/img/ntdsLiteAnimal.jpg",
+        "name": "Máy Nintendo Swich Lite Coral",
+        "code": "abcxyz",
+        "price": 4250000
+    },
+    {
+        "id": 2,
+        "img": "public/img/ntdsoled.png",
+        "name": "Máy Nintendo Switch OLED model (White Joycon) giá rẻ",
+        "price": 4450000
+    },
+    {
+        "id": 3,
+        "img": "public/img/ntdspkmviscar.jpg",
+        "name": "Máy Nintendo Switch Oled Model Pokemon Scarlet & Violet Edition",
+        "price": 4450000
+    },
+    {
+        "id": 4,
+        "img": "public/img/comboMay.png",
+        "name": "Combo SALE máy Nintendo Switch New Model 2023",
+        "price": 7650000
+    },
+    {
+        "id": 5,
+        "img": "public/img/ps5SpiderMan.jpg",
+        "name": "Máy PS5 phiên bản Marvel’s Spider-Man 2 Limited Edition",
+        "price": 1200000
+    },
+    {
+        "id": 6,
+        "img": "public/img/ps5NewModel.jpg",
+        "name": "Máy PS5 Standard Slim New Model - Playstation 5 Xách Tay",
+        "price": 160000
+    },
+    {
+        "id": 7,
+        "img": "public/img/gamePKMViolet.jpg",
+        "name": "Game Pokemon Violet + Steelbook Violet - Nintendo Switch",
+        "price": 220000
+    },
+    {
+        "id": 8,
+        "img": "public/img/ntdsLiteAnimalTimmyTommy.jpg",
+        "name": "Máy Nintendo Switch Lite Animal Crossing: New Horizons Bundle - Timmy &amp; Tommy Aloha Edition",
+        
+        "price": 320000
+    },
+    {
+        "id": 9,
+        "img": "public/img/ntdszelda.jpg",
+        "name": "Máy Nintendo Switch OLED Model The Legend Of Zelda: Tears Of The Kingdom Edition",
+        "price": 210000
+    },
+    {
+        "id": 10,
+        "img": "public/imgFigure/rayquaza.jpg",
+        "name": "Mô hình Pokemon Moncolle Rayquaza - Takara Tomy PTM030",
+        "price": 200000
+    },
+    {
+        "id": 11,
+        "img": "public/imgPK/tayCamXbox.jpg",
+        "name": "Tay cầm Xbox Wireless Controller - Gold Shadow",
+        "price": 210000
+    }, 
+    {
+        "id": 12,
+        "img": "public/imgPK/tayCamXbox2.jpg",
+        "name": "Tay cầm Xbox Wireless Controller - Stellar Shift",
+        "price": 210000
+    },  
+    {
+        "id": 13,
+        "img": "public/imgGame/marioWonder.jpg",
+        "name": "Game Super Mario Bros. Wonder - Nintendo Switch",
+        "price": 210000
+    }, 
+    {
+        "id": 14,
+        "img": "public/imgFigure/zekrom.jpg",
+        "name": "Game Final Fantasy VII Rebirth Collector's Edition - PS5",
+        "price": 210000
+    },  
+    {
+        "id": 15,
+        "img": "public/img/rogally.jpg",
+        "name": "Máy chơi game cầm tay ROG ALLY - AMD Ryzen Z1 - Asus",
+        "price": 210000
+    },  
+    {
+        "id": 16,
+        "img": "public/imgFigure/groudon.jpg",
+        "name": "Mô hình lắp ráp Groudon Pokemon Plamo Collection - Bandai PLA033",
+        "price": 210000
+    },     
+    {
+        "id": 17,
+        "img": "public/imgFigure/rayquazashiny.jpg",
+        "name": "Mô hình lắp ráp Black Rayquaza Pokemon Plamo Collection - BANDAI PLA035",
+        "price": 210000
+    }, 
+    {
+        "id": 18,
+        "img": "public/imgGame/PrinceOfPersiaNDS.jpg",
+        "name": "Game Prince of Persia: The Lost Crown - Nintendo Switch",
+        "price": 210000
+    },
+    {
+        "id": 19,
+        "img": "public/imgGame/PrinceOfPersiaPS5.jpg",
+        "name": "Game Prince of Persia: The Lost Crown - PS5",
+        "price": 210000
+    },
+    {
+        "id": 20,
+        "img": "public/imgGame/PrinceOfPersiaPS5.jpg",
+        "name": "Game Prince of Persia: The Lost Crown - PS5",
+        "price": 210000
+    },
+    {
+        "id": 21,
+        "img": "public/img/ntdsMario.jpg",
+        "name": "Máy Nintendo Switch OLED Model Mario Red Edition",
+        "price": 210000
+    },
+    {
+        "id": 22,
+        "img": "public/img/ntdsLiteCoral.jpg",
+        "name": "Máy Nintendo Swich Lite Coral",
+        "price": 210000
+    },
+    {
+        "id": 23,
+        "img": "public/img/ntdsLiteXanh.jpg",
+        "name": "Máy Nintendo Swich Lite Turquoise",
+        "price": 210000
+    },
+    {
+        "id": 24,
+        "img": "public/imgFigure/blackKyurem.jpg",
+        "name": "Mô hình Pokemon Moncolle Black Kyurem - Takara Tomy PTM084",
+        "price": 210000
+    },
+    {
+        "id": 25,
+        "img": "public/imgFigure/whiteKyurem.jpg",
+        "name": "Mô hình Pokemon Moncolle White Kyurem - Takara Tomy PTM076",
+        "price": 210000
+    },
+    {
+        "id": 26,
+        "img": "public/imgFigure/charizardX.jpg",
+        "name": "Mô hình Pokemon Moncolle Mega Charizard X - Takara Tomy PTM070",
+        "price": 210000
+    }
+]
